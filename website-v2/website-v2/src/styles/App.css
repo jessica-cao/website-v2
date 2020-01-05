@@ -23,6 +23,14 @@
   color: whitesmoke;
 }
 
+.App-container-landing {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 30%;
+  padding-right: 30%;
+  border: 10px solid white;
+}
+
 .App-link {
   color: #61dafb;
 }

@@ -6,11 +6,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h5>
+        {/*<img src={logo} className="App-logo" alt="logo" /> */}
+        <div className="App-container-landing">
+          <h4>Hello, I'm</h4>
+          <h4>Jessica</h4>
+        </div>
+        <div className="tag-line">
+        <p>
         Computer Science student | Web development enthusiast | Crippling Optimist
-        </h5>
-        <a
+        </p>
+        </div>
+        {/*<a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
@@ -18,6 +24,7 @@ function App() {
         >
           Learn React
         </a>
+        */}
       </header>
     </div>
   );

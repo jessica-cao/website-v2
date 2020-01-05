@@ -4,9 +4,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    */
-  font: 100% Montserrat, sans-serif;
-  line-height: 1.8;
+  */
+  font: 75% Montserrat, sans-serif; 
+  line-height: 1.5;
   color: #3b556b;
   height: 100%;
   background-image: url("../images/background.png");
@@ -20,6 +20,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -60,9 +61,8 @@ font: 30px Roboto Mono, sans-serif;
 }
 
 .tag-line {
-margin: auto;
+  padding-top: 3%;
 text-align: center;
-height: 10vh;
 color: white;
 }
 
